@@ -8,7 +8,7 @@
     <title>Tacenda POC</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <script src="https://unpkg.com/vue@3.0.5/dist/vue.global.js"></script>
 
 
 </head>
@@ -305,9 +305,9 @@
     </div>
 
     <script>
-        var ctx = document.getElementById('chart').getContext('2d');
-        var _data = JSON.parse('<?php echo json_encode($js_data) ?>');
-        var myLineChart = new Chart(ctx, {
+        let ctx = document.getElementById('chart').getContext('2d');
+        let _data = JSON.parse('<?php echo json_encode($js_data) ?>');
+        let myLineChart = new Chart(ctx, {
             type: 'line',
             data: _data,
             options: {
