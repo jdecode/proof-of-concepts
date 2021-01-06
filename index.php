@@ -258,9 +258,9 @@
                                                 </label>
                                                 <select id="kpi" name="kpi" class="mt-1 block w-full pl-2 pr-10 px-2 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
                                                     <option value="1" selected>Opportunities Created</option>
-                                                    <option value="2" disabled>Calls made</option>
-                                                    <option value="3" disabled>Avg. Sales</option>
-                                                    <option value="4" disabled>Some other KPI</option>
+                                                    <option value="2" disabled>Calls made [disabled]</option>
+                                                    <option value="3" disabled>Avg. Sales [disabled]</option>
+                                                    <option value="4" disabled>Some other KPI [disabled]</option>
                                                 </select>
                                             </div>
                                             <div class="">
@@ -280,9 +280,9 @@
                                                 </label>
                                                 <select id="alert" name="alert" class="mt-1 block w-full pl-2 pr-10 px-2 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
                                                     <option value="1" selected>Daily</option>
-                                                    <option value="5" disabled>Weekly</option>
-                                                    <option value="22" disabled>Monthly</option>
-                                                    <option value="60" disabled>Quarterly</option>
+                                                    <option value="5" disabled>Weekly [disabled]</option>
+                                                    <option value="22" disabled>Monthly [disabled]</option>
+                                                    <option value="60" disabled>Quarterly [disabled]</option>
                                                 </select>
                                             </div>
                                             <div class="">
